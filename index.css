@@ -1,5 +1,5 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("https://media.istockphoto.com/id/1152782421/photo/unsatisfied-african-woman-showing-thumb-down-disapproval-gesture.jpg?s=612x612&w=0&k=20&c=BDBQJYwSOdtDnZq0nYgiXB0bLVfuBkGYbuK32G0QQl4=");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -7,10 +7,14 @@ body {
 }
 
 .container {
-    background: white;
+    /* background-image: url("https://media.istockphoto.com/id/1152782421/photo/unsatisfied-african-woman-showing-thumb-down-disapproval-gesture.jpg?s=612x612&w=0&k=20&c=BDBQJYwSOdtDnZq0nYgiXB0bLVfuBkGYbuK32G0QQl4=");
+    background-size: cover; */
+    background: transparent;
     max-width: 80%;
+    height: 100vh;
     margin: auto;
     border: 3px solid black;
+    color: aqua;
     border-radius: 10px;
 }
 
